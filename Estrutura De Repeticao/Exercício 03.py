@@ -23,4 +23,4 @@ while sexo != 'M' and sexo != 'F':
 while civil != 'S' and civil != 'C' and civil != 'V' and civil != 'D':
     print('Estado Civil inserido com caracteres inválidos!')
     civil = str(input('Escolha o estado civil: [S]olteiro - [C]asado - [V]iúvo - [D]ivorciado: ')).upper().strip()[0]
-print ("Todas as opções foram inseridas corretamente. Fim do programa.")
+print("Todas as opções foram inseridas corretamente. Fim do programa.")
