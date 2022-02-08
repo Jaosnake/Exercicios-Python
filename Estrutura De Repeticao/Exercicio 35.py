@@ -1,5 +1,5 @@
 n = int(input('Digite um número: '))
-print(f'Números primos entre 1 e {n}: ')
+print(f'\nNúmeros primos entre 1 e {n}: ')
 x = 2
 while x <= n - 1:
     a = 0
