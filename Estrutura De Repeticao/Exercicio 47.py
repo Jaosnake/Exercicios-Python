@@ -18,10 +18,10 @@ while True:
     menor = min(notas_totais)
     print(f'\nAtleta: {nome}\n')
     for count in range (0,7):
-        print (f'nota: {notas_totais[count]}')
+        print (f'Nota: {notas_totais[count]}')
         count+=1
     print (f'\nResultado final: ')
-    print (f'Atleta: {nome}')
+    print (f'\nAtleta: {nome}')
     print(f'Melhor nota: {maior}')
     print(f'Pior nota: {menor}')
     notas_totais.remove(maior)
